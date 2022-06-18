@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tracerstady">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Admin.Activity.QueryAndSearchAlumniActivity"></activity>
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".Admin.Activity.PilihWorkingEditActivity"
+            android:parentActivityName=".Admin.Activity.PilihWorkingActivity" />
+        <activity
+            android:name=".Admin.Activity.PilihWorkingDetailActivity"
+            android:parentActivityName=".Admin.Activity.PilihWorkingActivity" />
+        <activity
+            android:name=".Admin.Activity.PilihWorkingAddActivity"
+            android:parentActivityName=".Admin.Activity.PilihWorkingActivity" />
+        <activity android:name=".Admin.Activity.PilihWorkingActivity" />
+        <activity android:name=".Admin.Activity.ScanActivity" />
+        <activity
+            android:name=".Admin.Activity.OrdersDetailActivity"
+            android:parentActivityName=".Admin.Activity.OrdersActivity" />
+        <activity
+            android:name=".Admin.Activity.OrdersActivity"
+            android:parentActivityName=".Admin.Activity.HomeAdminActivity" />
+        <activity
+            android:name=".Admin.Activity.FAQAdminEditActivity"
+            android:parentActivityName=".Admin.Activity.FAQAdminActivtiy" />
+        <activity
+            android:name=".Admin.Activity.FAQAdminAddActivity"
+            android:parentActivityName=".Admin.Activity.FAQAdminActivtiy" />
+        <activity
+            android:name=".Admin.Activity.FAQAdminActivtiy"
+            android:parentActivityName=".Admin.Activity.HomeAdminActivity" />
+        <activity
+            android:name=".Admin.Activity.CategoryViewActivity"
+            android:parentActivityName=".Admin.Activity.CategoryActivity" />
+        <activity
+            android:name=".Admin.Activity.CategoryEditActivity"
+            android:parentActivityName=".Admin.Activity.CategoryActivity" />
+        <activity
+            android:name=".Admin.Activity.CategoryAddActivity"
+            android:parentActivityName=".Admin.Activity.CategoryActivity" />
+        <activity
+            android:name=".Admin.Activity.CategoryActivity"
+            android:parentActivityName=".Admin.Activity.HomeAdminActivity" />
+        <activity
+            android:name=".Admin.Activity.AccountAdminEditActivity"
+            android:parentActivityName=".Admin.Activity.AccountAdminActivity" />
+        <activity
+            android:name=".Admin.Activity.AccountAdminActivity"
+            android:parentActivityName=".Admin.Activity.HomeAdminActivity" />
+        <activity android:name=".Alumni.Activity.SuccessApplicantActivity" />
+        <activity
+            android:name=".Alumni.Activity.OurOfficeActivity"
+            android:parentActivityName=".Alumni.Activity.HomeActivity" />
+        <activity
+            android:name=".Alumni.Activity.ListByCategoryAct"
+            android:parentActivityName=".Alumni.Activity.HomeActivity" />
+        <activity android:name=".Alumni.Activity.FormPesananActivity" />
+        <activity
+            android:name=".Alumni.Activity.FAQActivity"
+            android:parentActivityName=".Alumni.Activity.HomeActivity" />
+        <activity
+            android:name=".Alumni.Activity.DetailWorkingActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Alumni.Activity.DetailApplicantActivity"
+            android:parentActivityName=".Alumni.Activity.HomeActivity" />
+        <activity
+            android:name=".Alumni.Activity.EditProfileActivity"
+            android:parentActivityName=".Alumni.Activity.HomeActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Admin.Activity.QueryAndSearchAct"
+            android:parentActivityName=".Admin.Activity.OrdersActivity" />
+        <activity android:name=".Admin.Activity.HomeAdminActivity" />
+        <activity android:name=".SuccessRegisterActivity" />
+        <activity android:name=".GetStartedActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterTwoActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".Alumni.Activity.HomeActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Admin.Interface.Potrait"
+            android:screenOrientation="fullSensor"
+            android:stateNotNeeded="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+    </application>
+
+</manifest>

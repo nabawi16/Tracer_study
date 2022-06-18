@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1083546574458",
+    "firebase_url": "https://tracerstady.firebaseio.com",
+    "project_id": "tracerstady",
+    "storage_bucket": "tracerstady.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083546574458:android:b462cefa2c577c92e5a5c3",
+        "android_client_info": {
+          "package_name": "com.example.tracerstady"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083546574458-g07c3lbida7v60notilul29ja33d6a2k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tracerstady",
+            "certificate_hash": "5f423beb5030c97c6571f8709b5f5badf40efd51"
+          }
+        },
+        {
+          "client_id": "1083546574458-vkue3aoo1p9811dr18m88k89rmmjffeb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvQmnH72-9pAAI9-L-qNAoH4kkuhYGEec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083546574458-vkue3aoo1p9811dr18m88k89rmmjffeb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

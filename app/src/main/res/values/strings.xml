@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">TracerStady</string>
+    <string name="password_label">password_label</string>
+    <string name="email_label">email_label</string>
+    <string name="signin">signin</string>
+    <string name="continue_label">continue_label</string>
+    <string name="explore_now_label">explore_now_label</string>
+    <string name="new_account">new_account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="query">Query</string>
+    <string name="account">Account</string>
+    <string name="home">Home</string>
+    <string name="myapplicant">MyApplicant</string>
+    <string name="cari">Cari</string>
+    <string name="no_handphone">No Handphone</string>
+    <string name="nama">Nama</string>
+    <string name="no_hanphone">No Hanphone</string>
+    <string name="save">Save</string>
+    <string name="name_label">name_label</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="post">/ post</string>
+    <string name="email">Email</string>
+    <string name="npm">NPM</string>
+    <string name="jurusan">Jurusan</string>
+    <string name="tahun_lulus">Tahun Lulus</string>
+    <string name="pekerjaan">Pekerjaan</string>
+    <string name="alumni">Alumni</string>
+    <string name="alumni_aktif">Alumni Aktif</string>
+    <string name="menuju_perusahaan">Menuju Perusahaan</string>
+    <string name="item">Item</string>
+</resources>
